@@ -1,28 +1,32 @@
 <html>
     <head>
         <title>CSS Selectors Practice — Task 2</title>
-        <link rel="stylesheet" href="/styles.css">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
 
-        <header>
-            <h1>My CSS Practice Page</h1>
+        <header class="dark-bg light-text spaced-out">
+            <h1 id="page-title">My CSS Practice Page</h1>
             <p>Welcome to my page. I am learning how to use CSS selectors.</p>
         </header>
 
         <main>
 
             <h2>About Me</h2>
-            <p>My name is ______________________.</p>
-            <p>My favorite color is ______________________.</p>
-            <p>My favorite food is ______________________.</p>
+            <div class="card rounded spaced-out">
+                <p>My name is ______________________.</p>
+                <p>My favorite color is ______________________.</p>
+                <p>My favorite food is ______________________.</p>
+            </div>
 
             <h2>Things I Like</h2>
-            <ul>
-                <li>Item one</li>
-                <li>Item two</li>
-                <li>Item three</li>
-            </ul>
+            <div class="card rounded spaced-out">
+                <ul>
+                    <li>Item one</li>
+                    <li>Item two</li>
+                    <li>Item three</li>
+                </ul>
+            </div>
 
             <h3>My Favorite Class</h3>
             <p>My favorite class this year is ______________________.</p>
@@ -36,25 +40,39 @@
             </ol>
 
             <h4>A Warning Message</h4>
-            <p>This is an important message. Pay attention to this one!</p>
+            <p class="warning rounded spaced-out">
+                This is an important message. Pay attention to this one!
+            </p>
 
             <h4>A Label Example</h4>
-            <p>This text could look like a badge or a tag.</p>
+            <p class="tag">
+                This text could look like a badge or a tag.
+            </p>
 
             <h5>Extra Notes</h5>
-            <p>You can add any extra notes or content here.</p>
-            <p>Try applying multiple classes to this paragraph!</p>
+            <p class="cool-box rounded">
+                You can add any extra notes or content here.
+            </p>
 
-            <img src="/assets/milky_way.jpg" alt="milky_way by Louis Gaudiau" width="300px"/>
-            <img src="/assets/milky_way.jpg" alt="milky_way by Louis Gaudiau" width="300px"/>
-            <img src="/assets/milky_way.jpg" alt="milky_way by Louis Gaudiau" width="300px"/>
-            <img src="/assets/milky_way.jpg" alt="milky_way by Louis Gaudiauo" width="300px"/>
-            <img src="/assets/milky_way.jpg" alt="milky_way by Louis Gaudiau" width="300px"/>
+            <p class="dark-bg light-text spaced-out rounded">
+                Try applying multiple classes to this paragraph!
+            </p>
+
+            <img src="/assets/milky_way.jpg" alt="milky_way" width="300px" class="img-style"/>
+            <img src="/assets/milky_way.jpg" alt="milky_way" width="300px" class="img-style"/>
+            <img src="/assets/milky_way.jpg" alt="milky_way" width="300px" class="img-style"/>
+            <img src="/assets/milky_way.jpg" alt="milky_way" width="300px" class="img-style"/>
+            <img src="/assets/milky_way.jpg" alt="milky_way" width="300px" class="img-style"/>
 
         </main>
 
-        <footer>
-            <p>Photo by <a href="https://unsplash.com/@louisgaudiau?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louis Gaudiau</a> Via <a href="https://unsplash.com/photos/milky-way-galaxy-over-a-lit-tower-on-a-hill-jpxOY5OdFpc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"> Unsplash</a></p>
+        <footer id="footer">
+            <p>
+                Photo by 
+                <a href="https://unsplash.com/@louisgaudiau">Louis Gaudiau</a> 
+                Via 
+                <a href="https://unsplash.com">Unsplash</a>
+            </p>
         </footer>
 
     </body>

@@ -1,7 +1,76 @@
-* {
-    box-sizing: border-box;
+/* Level 1 */
+
+.dark-bg {
+  background-color: #1e1e1e;
 }
 
-/* write your rules below  this line*/
+.light-text {
+  color: #ffffff;
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
+.spaced-out {
+  padding: 20px;
+}
+
+#page-title {
+  font-size: 48px;
+  text-align: center;
+}
 
 
+/* Level 2 */
+
+.card {
+  background-color: #f4f4f4;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.warning {
+  background-color: #ffcc00;
+  color: #000;
+  padding: 10px;
+}
+
+.img-style {
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+.tag {
+  background-color: #0077ff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+#footer {
+  background-color: #1e1e1e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+
+/* Level 3 */
+
+.big-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.cool-box {
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 12px;
+}
+
+#special-section {
+  background-color: #ffe0e0;
+  padding: 25px;
+  text-align: center;
+}
